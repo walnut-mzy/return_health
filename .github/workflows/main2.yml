@@ -34,8 +34,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         pip install PyEmail
-        pip install smtplib
-        pip install MIMEText
     - name: Update zhihu
       run: |
         python return_health.py
