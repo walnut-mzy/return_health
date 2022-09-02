@@ -7,14 +7,14 @@ import datetime
 from email.mime.text import MIMEText
 import time
 parser = argparse.ArgumentParser(description='Test for argparse')
-parser.add_argument('--msg1', '-n', help='发信人邮件', required=True)
-parser.add_argument('--passwd1', '-y', help='发信人邮箱认证码', required=True)
-parser.add_argument('--place', '-b', help='打卡地点', required=True)
-parser.add_argument('--isschool', '-n', help='是否在校', required=True)
-parser.add_argument('--dingweiplace', '-y', help='定位地点', required=True)
-parser.add_argument('--emailto', '-b', help='发送人邮件', required=True)
-parser.add_argument('--uid', '-y', help='学号', required=True)
-parser.add_argument('--upw', '-b', help='密码', required=True)
+parser.add_argument('--msg1', help='发信人邮件', required=True)
+parser.add_argument('--passwd1', help='发信人邮箱认证码', required=True)
+parser.add_argument('--place', help='打卡地点', required=True)
+parser.add_argument('--isschool', help='是否在校', required=True)
+parser.add_argument('--dingweiplace', help='定位地点', required=True)
+parser.add_argument('--emailto', help='发送人邮件', required=True)
+parser.add_argument('--uid', help='学号', required=True)
+parser.add_argument('--upw', help='密码', required=True)
 args = parser.parse_args()
 msg1=args.msg1
 passwd1=args.passwd1
