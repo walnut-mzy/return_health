@@ -35,5 +35,5 @@ jobs:
         pip install requests
         pip install PyEmail
     - name: Update zhihu
-      run: |
-        python return_health.py
+      run: | 
+        python return_health_github_action.py --msg1 ${secrets.MSG1} --passwd1 ${secrets.PASSWD1} --place ${secrets.PLACE} --isschool ${secrets.ISSCHOOL} --dingweiplace ${secrets.DINGWEIPLACE} --emailto ${secrets.EMAILTO} --uid ${secrets.UID} --upw ${secrets.UPW}  
