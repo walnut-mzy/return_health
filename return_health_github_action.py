@@ -150,7 +150,7 @@ def returnhelth():
         "door":'',
         "day6":"b",
         "men6":"a",
-        "myvs_13":"否",
+        "myvs_13":"g",
         "myvs_24":"否",
         "myvs_26":"2",
         "memo22":dingweididan
@@ -192,18 +192,18 @@ if __name__ == '__main__':
     print("server begin")
     email(emailto,"begin")
     print("hello")
-    # while True:
-    #     now = str(datetime.datetime.now())
-    #     now2 = now[11:]
-    #     if time1 < now2<time2:
-    #         try:
-    #             print("hello")
-    #             returnhelth()
-    #             email2(emailto)
-    #             break
-    #         except Exception as e:
-    #             email(emailto,e)
-    #     time.sleep(300)
+    while True:
+        now = str(datetime.datetime.now())
+        now2 = now[11:]
+        if time1 < now2<time2:
+            try:
+                print("hello")
+                returnhelth()
+                email2(emailto)
+                break
+            except Exception as e:
+                email(emailto,e)
+        time.sleep(300)
 #window.location='https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/showonemsg?ptopid=sE8EA7ECE9F934763BFD5036470408401&msg6=C4E3C8A1CFFBC1CBB1BEB4CEBDA1BFB5D7B4BFF6CCEEB1A8&sid=210409120208562960'
 #https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first6?ptopid=sE8EA7ECE9F934763BFD5036470408401&sid=210409120148656650
 
