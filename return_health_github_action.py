@@ -150,7 +150,7 @@ def returnhelth():
         "door":'',
         "day6":"b",
         "men6":"a",
-        "myvs_13":"g",
+        "myvs_13":"否",
         "myvs_24":"否",
         "myvs_26":"2",
         "memo22":dingweididan
